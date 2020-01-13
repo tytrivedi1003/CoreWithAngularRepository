@@ -1,0 +1,13 @@
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\LoginService.deps.json
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\LoginService.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\LoginService.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\DTOs.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\LoginContract.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\LoginContract.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Service\bin\Debug\netstandard2.0\DTOs.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Service\obj\Debug\netstandard2.0\LoginService.csprojAssemblyReference.cache
+D:\SampleAuthWEBApi\CoreWithAngular\Service\obj\Debug\netstandard2.0\LoginService.AssemblyInfoInputs.cache
+D:\SampleAuthWEBApi\CoreWithAngular\Service\obj\Debug\netstandard2.0\LoginService.AssemblyInfo.cs
+D:\SampleAuthWEBApi\CoreWithAngular\Service\obj\Debug\netstandard2.0\LoginService.csproj.CopyComplete
+D:\SampleAuthWEBApi\CoreWithAngular\Service\obj\Debug\netstandard2.0\LoginService.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Service\obj\Debug\netstandard2.0\LoginService.pdb

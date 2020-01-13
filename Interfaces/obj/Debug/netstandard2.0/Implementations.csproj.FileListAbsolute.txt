@@ -1,0 +1,13 @@
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Implementations.deps.json
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Implementations.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Implementations.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Data.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Interfaces.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Data.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\obj\Debug\netstandard2.0\Implementations.csprojAssemblyReference.cache
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\obj\Debug\netstandard2.0\Implementations.AssemblyInfoInputs.cache
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\obj\Debug\netstandard2.0\Implementations.AssemblyInfo.cs
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\obj\Debug\netstandard2.0\Implementations.csproj.CopyComplete
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\obj\Debug\netstandard2.0\Implementations.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Interfaces\obj\Debug\netstandard2.0\Implementations.pdb

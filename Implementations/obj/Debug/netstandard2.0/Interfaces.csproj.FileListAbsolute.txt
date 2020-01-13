@@ -1,0 +1,11 @@
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\bin\Debug\netstandard2.0\Interfaces.deps.json
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\bin\Debug\netstandard2.0\Interfaces.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\bin\Debug\netstandard2.0\Data.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\bin\Debug\netstandard2.0\Data.pdb
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.csproj.CopyComplete
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.dll
+D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.pdb

@@ -1,0 +1,4 @@
+Public Interface IAccountService
+{
+
+}
