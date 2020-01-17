@@ -9,3 +9,14 @@ D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Int
 D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.csproj.CopyComplete
 D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.dll
 D:\SampleAuthWEBApi\CoreWithAngular\Implementations\obj\Debug\netstandard2.0\Interfaces.pdb
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\bin\Debug\netstandard2.0\Interfaces.deps.json
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\bin\Debug\netstandard2.0\Interfaces.dll
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\bin\Debug\netstandard2.0\Interfaces.pdb
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\bin\Debug\netstandard2.0\Data.dll
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\bin\Debug\netstandard2.0\Data.pdb
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\obj\Debug\netstandard2.0\Interfaces.csprojAssemblyReference.cache
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\obj\Debug\netstandard2.0\Interfaces.AssemblyInfoInputs.cache
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\obj\Debug\netstandard2.0\Interfaces.AssemblyInfo.cs
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\obj\Debug\netstandard2.0\Interfaces.csproj.CopyComplete
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\obj\Debug\netstandard2.0\Interfaces.dll
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Implementations\obj\Debug\netstandard2.0\Interfaces.pdb

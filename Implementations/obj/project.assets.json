@@ -1041,11 +1041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj",
+      "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj",
       "projectName": "Interfaces",
-      "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj",
+      "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj",
       "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
-      "outputPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\obj\\",
+      "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1064,8 +1064,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj": {
-              "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj"
+            "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj": {
+              "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj"
             }
           }
         }

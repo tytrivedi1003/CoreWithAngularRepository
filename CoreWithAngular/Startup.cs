@@ -14,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using StackExchange.Redis;
 
 namespace CoreWithAngular
 {
@@ -58,13 +59,19 @@ namespace CoreWithAngular
                     .AllowAnyMethod();
                 });
             });
-            services.AddSession(options => {
+
+            //services.AddCors();
+            services.AddSession(options =>
+            {
                 options.IdleTimeout = TimeSpan.FromMinutes(60);
             });
 
             services.AddMvc();
             services.AddDbContext<DevDbContext>
                 (item => item.UseSqlServer(Configuration.GetConnectionString("myCon")));
+
+            services.AddSingleton<IConnectionMultiplexer>(provider =>
+            ConnectionMultiplexer.Connect(Configuration.GetConnectionString("RedisConnection")));
 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(EfRepository<>));
             services.AddScoped<IUserDetails, UserDetailsRepository>();
@@ -74,6 +81,13 @@ namespace CoreWithAngular
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+
+            //radis cache 
+            services.AddDistributedRedisCache(option =>
+            {
+                option.Configuration = "127.0.0.1";
+                option.InstanceName = "master";
             });
         }
 
@@ -91,7 +105,7 @@ namespace CoreWithAngular
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
-
+            app.UseCors(CorsPolicyName);
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>

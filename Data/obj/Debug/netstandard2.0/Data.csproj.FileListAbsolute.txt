@@ -5,3 +5,11 @@ D:\SampleAuthWEBApi\CoreWithAngular\Data\obj\Debug\netstandard2.0\Data.AssemblyI
 D:\SampleAuthWEBApi\CoreWithAngular\Data\obj\Debug\netstandard2.0\Data.AssemblyInfo.cs
 D:\SampleAuthWEBApi\CoreWithAngular\Data\obj\Debug\netstandard2.0\Data.dll
 D:\SampleAuthWEBApi\CoreWithAngular\Data\obj\Debug\netstandard2.0\Data.pdb
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\bin\Debug\netstandard2.0\Data.deps.json
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\bin\Debug\netstandard2.0\Data.dll
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\bin\Debug\netstandard2.0\Data.pdb
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\obj\Debug\netstandard2.0\Data.csprojAssemblyReference.cache
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\obj\Debug\netstandard2.0\Data.AssemblyInfoInputs.cache
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\obj\Debug\netstandard2.0\Data.AssemblyInfo.cs
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\obj\Debug\netstandard2.0\Data.dll
+D:\SampleAuthWEBApi\New folder\CoreWithAngularRepository\Data\obj\Debug\netstandard2.0\Data.pdb

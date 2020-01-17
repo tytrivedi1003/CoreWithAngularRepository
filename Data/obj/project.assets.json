@@ -1023,11 +1023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj",
+      "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
-      "outputPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\obj\\",
+      "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SampleAuthWEBApi\\CoreWithAngular\\CoreWithAngular\\CoreWithAngular.csproj": {}
+    "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\CoreWithAngular\\CoreWithAngular.csproj": {}
   },
   "projects": {
-    "D:\\SampleAuthWEBApi\\CoreWithAngular\\CoreWithAngular\\CoreWithAngular.csproj": {
+    "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\CoreWithAngular\\CoreWithAngular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SampleAuthWEBApi\\CoreWithAngular\\CoreWithAngular\\CoreWithAngular.csproj",
+        "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\CoreWithAngular\\CoreWithAngular.csproj",
         "projectName": "CoreWithAngular",
-        "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\CoreWithAngular\\CoreWithAngular.csproj",
+        "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\CoreWithAngular\\CoreWithAngular.csproj",
         "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
-        "outputPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\CoreWithAngular\\obj\\",
+        "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\CoreWithAngular\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,14 +30,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj": {
-                "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj"
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj"
               },
-              "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj": {
-                "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj"
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\DTOs\\DTOs.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\DTOs\\DTOs.csproj"
               },
-              "D:\\SampleAuthWEBApi\\CoreWithAngular\\Interfaces\\Implementations.csproj": {
-                "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Interfaces\\Implementations.csproj"
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj"
+              },
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Interfaces\\Implementations.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Interfaces\\Implementations.csproj"
               }
             }
           }
@@ -64,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -100,14 +107,14 @@
         }
       }
     },
-    "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj": {
+    "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj",
+        "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
-        "outputPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\obj\\",
+        "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -162,14 +169,72 @@
         }
       }
     },
-    "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj": {
+    "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj",
-        "projectName": "Interfaces",
-        "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj",
+        "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\DTOs\\DTOs.csproj",
         "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
-        "outputPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\obj\\",
+        "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tytrivedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
+        "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -188,8 +253,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj": {
-                "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj"
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj"
               }
             }
           }
@@ -224,14 +289,14 @@
         }
       }
     },
-    "D:\\SampleAuthWEBApi\\CoreWithAngular\\Interfaces\\Implementations.csproj": {
+    "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Interfaces\\Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Interfaces\\Implementations.csproj",
+        "projectUniqueName": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Interfaces\\Implementations.csproj",
         "projectName": "Implementations",
-        "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Interfaces\\Implementations.csproj",
+        "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Interfaces\\Implementations.csproj",
         "packagesPath": "C:\\Users\\tytrivedi\\.nuget\\packages\\",
-        "outputPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Interfaces\\obj\\",
+        "outputPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -250,11 +315,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj": {
-                "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Data\\Data.csproj"
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Data\\Data.csproj"
               },
-              "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj": {
-                "projectPath": "D:\\SampleAuthWEBApi\\CoreWithAngular\\Implementations\\Interfaces.csproj"
+              "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj": {
+                "projectPath": "D:\\SampleAuthWEBApi\\New folder\\CoreWithAngularRepository\\Implementations\\Interfaces.csproj"
               }
             }
           }
