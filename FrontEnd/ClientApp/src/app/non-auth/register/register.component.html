@@ -16,10 +16,10 @@
     </div>
 
     <div class="form-group">
-        <label for="phone">Phone #</label>
-        <input type="text" formControlName="phone" class="form-control" (keypress)="keyPress($event)" [ngClass]="{ 'is-invalid': submitted && f.phone.errors }" />
-        <div *ngIf="submitted && f.phone.errors" class="invalid-feedback">
-            <div *ngIf="f.phone.errors.required">Phone number is required.</div>
+        <label for="mob">Mobile #</label>
+        <input type="text" formControlName="mob" class="form-control" (keypress)="keyPress($event)" [ngClass]="{ 'is-invalid': submitted && f.mob.errors }" />
+        <div *ngIf="submitted && f.mob.errors" class="invalid-feedback">
+            <div *ngIf="f.mob.errors.required">Phone number is required.</div>
         </div>
     </div>
 

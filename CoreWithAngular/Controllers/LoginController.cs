@@ -40,23 +40,23 @@ namespace CoreWithAngular.Controllers
 
         [EnableCors("CORS")]
         [HttpPost("Register")]
-        public async Task<IActionResult> Register(Users userDetails)
+        public async Task<IActionResult> Register([FromBody]Users userData)
         {
             string pass = string.Empty;
-            userDetails.EmailId = userDetails.EmailId.ToLower();
-            if (await _userDetailsRepo.UserExists(userDetails.EmailId))
+            userData.EmailId = userData.EmailId.ToLower();
+            if (await _userDetailsRepo.UserExists(userData.EmailId))
                 return BadRequest("Email already exists");
-            if (userDetails != null)
+            if (userData != null)
             {
-                UserDetails userData = new UserDetails();
-                userData.FirstName = userDetails.FirstName;
-                userData.LastName = userDetails.LastName;
-                userData.EmailId = userDetails.EmailId;
-                userData.Phone = userDetails.Phone;
-                await _userDetailsRepo.Register(userData, userDetails.StrPass);
+                UserDetails userDetails = new UserDetails();
+                userDetails.FirstName = userData.FirstName;
+                userDetails.LastName = userData.LastName;
+                userDetails.EmailId = userData.EmailId;
+                userDetails.Phone = userData.Phone;
+                await _userDetailsRepo.Register(userDetails, userData.StrPass);
             }
             
-            return StatusCode(201, new { email = userDetails.EmailId, fullname = userDetails.FirstName });
+            return StatusCode(201, new { email = userData.EmailId, fullname = userData.FirstName });
         }
 
         [HttpGet("GetCache")]
