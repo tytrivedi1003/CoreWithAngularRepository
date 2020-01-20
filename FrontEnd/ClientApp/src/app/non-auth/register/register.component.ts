@@ -2,10 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
-import { AlertService } from '../../services/alert.service'
-import { LoginService } from './../../services/login.service';
-import { UserDetails } from './../../models/user-details';
-import { PathLocationStrategy } from '@angular/common';
+import { AlertService } from '../../services/alert/alert.service'
+import { LoginService } from './../../services/login/login.service';
+import { UserDetails } from './../../models/UserDetails/user-details';
 
 @Component({
   selector: 'app-register',
@@ -18,6 +17,7 @@ export class RegisterComponent implements OnInit {
   loading = false;
   submitted = false;
   userData = new UserDetails();
+  returnurl : string;
   constructor(
     private formBuilder: FormBuilder,
     private router: Router,
@@ -32,7 +32,7 @@ export class RegisterComponent implements OnInit {
       lastName: ['', Validators.required],
       username: ['', Validators.required],
       password: ['', [Validators.required, Validators.minLength(6)]],
-      phone: ['', [Validators.required]],
+      mob: ['', [Validators.required]],
     });
   }
  
@@ -55,21 +55,21 @@ export class RegisterComponent implements OnInit {
       return;
     }
 
+    debugger;
     this.loading = true;
     this.userData.FirstName = this.f.firstName.value;
     this.userData.LastName = this.f.lastName.value;
     this.userData.EmailId = this.f.username.value;
     this.userData.StrPass = this.f.password.value;
-    debugger;
-    this.userData.Phone = this.f.phone.value;
+    this.userData.Phone = this.f.mob.value;
 
-    
+    this.returnurl = './login';
     this.loginService.registerUser(this.userData)
       .pipe(first())
       .subscribe(
         data => {
           debugger;
-          // this.router.navigate([this.returnUrl]);
+           this.router.navigate([this.returnurl]);
         },
         error => {
           this.alertService.error(error);

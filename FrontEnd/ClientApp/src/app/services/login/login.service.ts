@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable,fromEventPattern } from 'rxjs';
-import { UserDetails } from '../models/user-details';
+import { UserDetails } from '../../models/userdetails/user-details';
 import { map } from 'rxjs/operators';
-import { Constants } from'../models/constants'
-import { constants } from 'buffer';
-import { environment } from './../../environments/environment';
+import { Constants } from'../../models/constants/constants'
+
+import { environment } from './../../../environments/environment';
 
 
 @Injectable({
